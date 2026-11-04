@@ -1,0 +1,42 @@
+:root {
+  --ink: #14221f;
+  --ink-soft: #3d524c;
+  --foam: #f3f7f5;
+  --mist: #d7e6df;
+  --teal: #0f6b5c;
+  --teal-deep: #0a4a40;
+  --teal-glow: #1f9a82;
+  --sand: #c9b299;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--foam);
+  background: var(--teal-deep);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
